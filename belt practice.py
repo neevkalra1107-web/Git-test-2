@@ -45,9 +45,9 @@
 
 #Debugging
 # 
-
-x=int(input())
-y=int(input())
-x=x//y
-y=y//x
-print(y)
+a=2
+b=3
+c=a/b
+print(a/b)
+print(round(a/b,5))
+print(f"{c:.5f}")

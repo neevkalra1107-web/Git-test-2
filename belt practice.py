@@ -51,3 +51,8 @@ c=a/b
 print(a/b)
 print(round(a/b,5))
 print(f"{c:.5f}")
+def hello(to):
+    print("Hello",to)
+
+name=input("Enter Your name: ")
+hello(name)
